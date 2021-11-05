@@ -5,6 +5,9 @@ namespace Flaskeautomat
 {
     class Program
     {
+        //this code produce something and consume it again as it being produced
+        //in my Main() i hold my threads
+        
         static int[] drinkArray = new int[2];
         private static int _id = 0;
         static object _lock = new object();
@@ -13,7 +16,6 @@ namespace Flaskeautomat
 
         static void Main()
         {
-
             Thread producer = new Thread(Producer);
             Thread consumer = new Thread(Consumer);
 
@@ -21,6 +23,7 @@ namespace Flaskeautomat
             consumer.Start();
         }
 
+        //my producer is producing _id's and put it in to the array if the array contains a 0
         static void Producer()
         {
             while (true)
@@ -59,6 +62,8 @@ namespace Flaskeautomat
             }
         }
 
+        //my consumer looks at the array, if theres anything in it (anyting other than 0)
+        //it consumes the product and replace it with a 0
         static void Consumer()
         {
             while (true)
