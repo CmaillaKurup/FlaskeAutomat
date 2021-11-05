@@ -30,7 +30,7 @@ namespace Flaskeautomat
                 {
                     if (drinkArray[0] == 0 || drinkArray[1] == 0)
                     {
-                        _id = _random.Next(1, 2);
+                        _id = _random.Next(1, 3);
                         if (_id == 1)
                         {
                             drinkArray.SetValue(1, 0);
