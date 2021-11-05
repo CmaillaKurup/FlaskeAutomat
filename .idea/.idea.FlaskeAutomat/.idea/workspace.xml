@@ -4,9 +4,7 @@
     <projectFile>FlaskeAutomat/FlaskeAutomat.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86bef3a0-b76c-48b6-930c-126ead51b656" name="Default Changelist" comment="Now using array instead of queue">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.FlaskeAutomat/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.FlaskeAutomat/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="86bef3a0-b76c-48b6-930c-126ead51b656" name="Default Changelist" comment="x" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +61,7 @@
       <updated>1635930851111</updated>
       <workItem from="1635930855889" duration="5985000" />
       <workItem from="1635941271127" duration="1209000" />
-      <workItem from="1636096885191" duration="1481000" />
+      <workItem from="1636096885191" duration="1816000" />
     </task>
     <task id="LOCAL-00001" summary="Flask is sorted by qeueu">
       <created>1635969058967</created>
@@ -79,7 +77,21 @@
       <option name="project" value="LOCAL" />
       <updated>1636098709539</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="dont know what this does">
+      <created>1636100439456</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1636100439456</updated>
+    </task>
+    <task id="LOCAL-00004" summary="x">
+      <created>1636100531436</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1636100531436</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
@@ -100,6 +112,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Flask is sorted by qeueu" />
     <MESSAGE value="Now using array instead of queue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Now using array instead of queue" />
+    <MESSAGE value="dont know what this does" />
+    <MESSAGE value="x" />
+    <option name="LAST_COMMIT_MESSAGE" value="x" />
   </component>
 </project>
