@@ -77,14 +77,12 @@ namespace Flaskeautomat
                         {
                             drinkArray.SetValue(0, 0);
                             Console.WriteLine("CONSUME id " + _id);
-                            Monitor.PulseAll(_lock);
                         }
 
                         if (drinkArray[0] == 2)
                         {
                             drinkArray.SetValue(0, 1);
                             Console.WriteLine("CONSUME id " + _id);
-                            Monitor.PulseAll(_lock);
                         }
                         else
                         {
